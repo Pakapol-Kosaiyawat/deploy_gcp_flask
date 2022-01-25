@@ -91,3 +91,6 @@ def warning_news_detail(id):
     print(type(news_detail))
     return render_template("warning_news_detail.html",all_detail = news_detail)
 
+if __name__ == '__main__':
+    app.debug = True
+    app.run()
